@@ -95,12 +95,24 @@
     border: transparent;
 }
 
-.add_signin{
-    color: #cccccc;
-    font-size: 0.9rem;
-    margin-top: 10px;
+.nav-search:hover{
+    border: 5px solid orange;
 }
 
-.add_Accounts{
-    
+.span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
