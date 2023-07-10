@@ -82,7 +82,6 @@
     align-items: center;
     justify-content:center;
     font-size: 1.2rem;
-    color: #0f1111;
 }
 
 .nav-lang{
@@ -96,7 +95,7 @@
 }
 
 .nav-search:hover{
-    border: 5px solid orange;
+    border: 2px solid rgba(255, 166, 0, 0.51);
 }
 
 .span{
@@ -115,4 +114,44 @@
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 9px;
+}
+
+.hero-section{
+    background-image: url(/assets/hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    color: black;
+    margin: 25px;
+    background-color: white;
+    
+}
+
+.hero-msg a {
+    color: #007185;
+
 }
